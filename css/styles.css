@@ -1,0 +1,116 @@
+html, body { font-family: "Quicksand", sans-serif !important; }
+
+body, html, .grid-container { height: 100%; margin: 0; }
+
+h1 { font-size: 5rem !important; font-weight: 300 !important; text-transform: uppercase; }
+
+h2 { font-size: 3.5rem; font-weight: 300 !important; }
+
+p { font-size: 1.125rem !important; font-weight: 100 !important; }
+
+.paragraph-two { font-size: 1rem; font-weight: 300 !important; }
+
+.subtext { font-size: 0.875rem !important; font-weight: 400 !important; letter-spacing: 2px; }
+
+.btn { border-radius: 20px; -webkit-transition: all .3s ease-out !important; -o-transition: all .3s ease-out !important; transition: all .3s ease-out !important; }
+
+.btn:hover { border-bottom-right-radius: 25px; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 0px; }
+
+.gradient-bg { background: -webkit-linear-gradient(26.069deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); background: -o-linear-gradient(26.069deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); background: linear-gradient(63.93082deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); }
+
+#landingPageParagraph { max-width: 540px; margin: 0 auto; }
+
+/* Form */
+input, textarea { background: transparent !important; border: none; border-radius: 0px !important; border-bottom: 1px solid #707070; -webkit-transition: all .3s ease-out !important; -o-transition: all .3s ease-out !important; transition: all .3s ease-out !important; }
+
+input:focus, textarea:focus { outline: none !important; border-bottom: 5px solid #9100F9 !important; }
+
+.form-label { font-size: 14px; font-weight: 500; letter-spacing: 1px; }
+
+/* Navigation & Logo */
+.navbar { position: relative; }
+
+.brand { position: absolute; left: 50%; margin-left: -50px !important; display: block; }
+
+.sidenav { height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; padding-top: 60px; }
+
+.sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; -webkit-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; }
+
+.sidenav a:hover { color: #f1f1f1; }
+
+.sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+
+#menu { margin-left: 20px; display: none; }
+
+/*Strategy Technology & Marketing Pages */
+.breadcrumb { background: transparent !important; }
+
+.breadcrumb > li > a { color: #000000; }
+
+.bgss { /* The image used */ background: -webkit-linear-gradient(26.069deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); background: -o-linear-gradient(26.069deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); background: linear-gradient(63.93082deg, #04213f 7.68359%, #04203f 7.68359%, #40085a 94.71484%); color: white; }
+
+/* About Page Stylesheet */
+#makeAppointmentHeading { position: absolute; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); margin-left: -180px; margin-top: 500px; }
+
+#makeAppointmentContent { margin-top: 320px; margin-left: 50px; position: absolute; }
+
+/*
+
+.work-experience-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px 10px;
+	grid-template-areas: "project-one project-two""project-one project-three";
+}
+
+.project-one {
+	grid-area: project-one;
+	background-image: url('../images/placeholder.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+.project-two {
+	grid-area: project-two;
+	background-image: url('../images/placeholder.png');
+
+}
+
+.project-three {
+	grid-area: project-three;
+	background-image: url('../images/placeholder.png');
+
+}
+
+
+
+*/
+/* WHY CHOOSE US STYLES*/
+#whyChooseUsLeftBox { background-image: url("../images/whychooseus-graphic.png"); background-repeat: no-repeat; background-size: contain; min-height: 600px; }
+
+.whychooseus-icons { position: absolute; margin-left: 50px; }
+
+.whychooseus-content { margin-left: 100px; }
+
+.whychooseus-individualpoints { padding-top: 50px; }
+
+/* For presentation only, no need to copy the code below */
+.grid-container * { position: relative; }
+
+.grid-container *:after { position: absolute; top: 0; left: 0; }
+
+@media screen and (max-width: 991px) { #menu { display: block; }
+  #navbarSocialIcons { display: none; }
+  #makeAppointmentHeading { position: relative; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin-left: 0px; margin-top: 100px; }
+  #makeAppointmentContent { margin-top: 00px; margin-left: 0px; position: absolute; }
+  #rocketMan { width: 100%; } }
+
+@media screen and (max-height: 450px) { .sidenav { padding-top: 15px; }
+  .sidenav a { font-size: 18px; } }
+
+@media screen and (max-width: 375px) { h1 { font-size: 4rem !important; } }
+
+@media screen and (max-width: 350px) { h1 { font-size: 3rem !important; }
+  #servicesThree { margin-top: 25px; } }
